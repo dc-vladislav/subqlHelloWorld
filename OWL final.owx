@@ -1,0 +1,892 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-9/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Blockchain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Cryptocurrency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#DigitalIdentityProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityVerification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiometricData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CryptographicHash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalIdentity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FederatedIdentity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmartContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VotingProposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tokenTransfer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBlock"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDigitalIdentity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSmartContract"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTransaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVerification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVotingProposal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIssuedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLinkedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#signsTransaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesBlockchain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesSmartContract"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesdApp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#verifiesIdentity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#addressValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#blockID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cryptographicHashValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#digitalIdentityID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#smartContractID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transactionID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alyssa_Milano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple_ID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Block1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Block2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Block3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Block4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compound_dApp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DigitalIdentity2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drivers_license1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethereum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethereum_coin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evernym"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Facebook_Account"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacialRecognition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fingerprint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Account"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ID2020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ivan_Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Doe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LinkedIn_Account"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft_Account"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Passport1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PublicAddress1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PublicAddress2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SmartContract2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SmartContract3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SmartContract4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Solana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Solana_coin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sovrin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transaction4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uniswap_dApp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veres_One"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VotingProposal1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voting_dApp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hash1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hash2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hash3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hash4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#uPort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#123_Main_street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#321_First_ave"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#44_Second_blvd"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiometricData"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityVerification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityVerification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FederatedIdentity"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#DigitalIdentityProvider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicAddress"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#DigitalIdentityProvider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmartContract"/>
+        <Class IRI="#Transaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tokenTransfer"/>
+        <Class IRI="#Transaction"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Alyssa_Milano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FederatedIdentity"/>
+        <NamedIndividual IRI="#Apple_ID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Block"/>
+        <NamedIndividual IRI="#Block1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Block"/>
+        <NamedIndividual IRI="#Block2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Block"/>
+        <NamedIndividual IRI="#Block3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Block"/>
+        <NamedIndividual IRI="#Block4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+        <NamedIndividual IRI="#Compound_dApp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalIdentity"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalIdentity"/>
+        <NamedIndividual IRI="#DigitalIdentity2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Document"/>
+        <NamedIndividual IRI="#Drivers_license1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Blockchain"/>
+        <NamedIndividual IRI="#Ethereum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Cryptocurrency"/>
+        <NamedIndividual IRI="#Ethereum_coin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+        <NamedIndividual IRI="#Evernym"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FederatedIdentity"/>
+        <NamedIndividual IRI="#Facebook_Account"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BiometricData"/>
+        <NamedIndividual IRI="#FacialRecognition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BiometricData"/>
+        <NamedIndividual IRI="#Fingerprint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FederatedIdentity"/>
+        <NamedIndividual IRI="#Google_Account"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+        <NamedIndividual IRI="#ID2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Ivan_Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#John_Doe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FederatedIdentity"/>
+        <NamedIndividual IRI="#LinkedIn_Account"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FederatedIdentity"/>
+        <NamedIndividual IRI="#Microsoft_Account"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Document"/>
+        <NamedIndividual IRI="#Passport1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicAddress"/>
+        <NamedIndividual IRI="#PublicAddress1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PublicAddress"/>
+        <NamedIndividual IRI="#PublicAddress2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SmartContract"/>
+        <NamedIndividual IRI="#SmartContract2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SmartContract"/>
+        <NamedIndividual IRI="#SmartContract3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SmartContract"/>
+        <NamedIndividual IRI="#SmartContract4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Blockchain"/>
+        <NamedIndividual IRI="#Solana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Cryptocurrency"/>
+        <NamedIndividual IRI="#Solana_coin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+        <NamedIndividual IRI="#Sovrin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction"/>
+        <NamedIndividual IRI="#Transaction4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+        <NamedIndividual IRI="#Uniswap_dApp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#User1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#User2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+        <NamedIndividual IRI="#Veres_One"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VotingProposal"/>
+        <NamedIndividual IRI="#VotingProposal1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SmartContract"/>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+        <NamedIndividual IRI="#Voting_dApp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CryptographicHash"/>
+        <NamedIndividual IRI="#hash1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CryptographicHash"/>
+        <NamedIndividual IRI="#hash2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CryptographicHash"/>
+        <NamedIndividual IRI="#hash3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CryptographicHash"/>
+        <NamedIndividual IRI="#hash4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+        <NamedIndividual IRI="#uPort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#123_Main_street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#321_First_ave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Address"/>
+        <NamedIndividual IRI="#44_Second_blvd"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTransaction"/>
+        <NamedIndividual IRI="#Block1"/>
+        <NamedIndividual IRI="#Transaction1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#Ivan_Lee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#PublicAddress1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#123_Main_street"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVerification"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#Passport1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIssuedBy"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#Sovrin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesSmartContract"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesdApp"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+        <NamedIndividual IRI="#Voting_dApp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDigitalIdentity"/>
+        <NamedIndividual IRI="#DigitalIdentity2"/>
+        <NamedIndividual IRI="#Google_Account"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVerification"/>
+        <NamedIndividual IRI="#DigitalIdentity2"/>
+        <NamedIndividual IRI="#FacialRecognition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBlock"/>
+        <NamedIndividual IRI="#Ethereum"/>
+        <NamedIndividual IRI="#Block1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#signsTransaction"/>
+        <NamedIndividual IRI="#PublicAddress1"/>
+        <NamedIndividual IRI="#Transaction1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesBlockchain"/>
+        <NamedIndividual IRI="#Sovrin"/>
+        <NamedIndividual IRI="#Ethereum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#verifiesIdentity"/>
+        <NamedIndividual IRI="#Sovrin"/>
+        <NamedIndividual IRI="#Passport1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <NamedIndividual IRI="#Transaction1"/>
+        <NamedIndividual IRI="#Block1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesBlockchain"/>
+        <NamedIndividual IRI="#Uniswap_dApp"/>
+        <NamedIndividual IRI="#Ethereum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDigitalIdentity"/>
+        <NamedIndividual IRI="#User1"/>
+        <NamedIndividual IRI="#DigitalIdentity1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVotingProposal"/>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+        <NamedIndividual IRI="#VotingProposal1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+        <NamedIndividual IRI="#Transaction1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSmartContract"/>
+        <NamedIndividual IRI="#Voting_dApp"/>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesBlockchain"/>
+        <NamedIndividual IRI="#Voting_dApp"/>
+        <NamedIndividual IRI="#Ethereum"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#blockID"/>
+        <NamedIndividual IRI="#Block1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">56756</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Ivan_Lee"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#addressValue"/>
+        <NamedIndividual IRI="#PublicAddress1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#base64Binary">0x122nb3v3b24n32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transactionID"/>
+        <NamedIndividual IRI="#Transaction1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#base64Binary">0x15r6t7y8u9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#smartContractID"/>
+        <NamedIndividual IRI="#VotingSmartContract"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#base64Binary">0x6r5e4w3q21</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <Class IRI="#DigitalIdentity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBlock"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Blockchain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDigitalIdentity"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSmartContract"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Blockchain"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSmartContract"/>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTransaction"/>
+        <Class IRI="#Block"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVerification"/>
+        <Class IRI="#DigitalIdentity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVotingProposal"/>
+        <Class IRI="#SmartContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <Class IRI="#SmartContract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIssuedBy"/>
+        <Class IRI="#DigitalIdentity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLinkedTo"/>
+        <Class IRI="#CryptographicHash"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#signsTransaction"/>
+        <Class IRI="#PublicAddress"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesBlockchain"/>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesBlockchain"/>
+        <Class IRI="#SelfSovereignIdentity_SSI"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesSmartContract"/>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesdApp"/>
+        <Class IRI="#DigitalIdentity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#verifiesIdentity"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#DigitalIdentityProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttribute"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBlock"/>
+        <Class IRI="#Block"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDigitalIdentity"/>
+        <Class IRI="#DigitalIdentity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSmartContract"/>
+        <Class IRI="#SmartContract"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTransaction"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVerification"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityVerification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVotingProposal"/>
+        <Class IRI="#VotingProposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIssuedBy"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#DigitalIdentityProvider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLinkedTo"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#signsTransaction"/>
+        <Class IRI="#Transaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesBlockchain"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#Blockchain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesSmartContract"/>
+        <Class IRI="#SmartContract"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesdApp"/>
+        <Class IRI="#DecentralizedApplication_dApp"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#verifiesIdentity"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#IdentityVerification"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#addressValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#blockID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cryptographicHashValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#digitalIdentityID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#smartContractID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#transactionID"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Age"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#blockID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#cryptographicHashValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#smartContractID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#transactionID"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Name"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#addressValue"/>
+        <Class IRI="#PublicAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#blockID"/>
+        <Class IRI="#Block"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cryptographicHashValue"/>
+        <Class IRI="#CryptographicHash"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#digitalIdentityID"/>
+        <Class IRI="http://www.semanticweb.org/eternity/ontologies/2023/3/untitled-ontology-8#DigitalIdentityProvider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#smartContractID"/>
+        <Class IRI="#SmartContract"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transactionID"/>
+        <Class IRI="#Transaction"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#addressValue"/>
+        <Datatype abbreviatedIRI="xsd:base64Binary"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#blockID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cryptographicHashValue"/>
+        <Datatype abbreviatedIRI="xsd:base64Binary"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#digitalIdentityID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#smartContractID"/>
+        <Datatype abbreviatedIRI="xsd:base64Binary"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transactionID"/>
+        <Datatype abbreviatedIRI="xsd:base64Binary"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
